@@ -9,4 +9,9 @@ public class StartButtonBehaviour : MonoBehaviour
     {
         SceneManager.LoadScene("gameplay");
     }
+
+    public void restartGameScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
