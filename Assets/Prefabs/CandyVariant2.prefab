@@ -21,6 +21,18 @@ PrefabInstance:
       value: CandyVariant2
       objectReference: {fileID: 0}
     - target: {fileID: 4863497857348968599, guid: b98fe528d519889499b3991a026ae0c1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4863497857348968599, guid: b98fe528d519889499b3991a026ae0c1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4863497857348968599, guid: b98fe528d519889499b3991a026ae0c1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4863497857348968599, guid: b98fe528d519889499b3991a026ae0c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
