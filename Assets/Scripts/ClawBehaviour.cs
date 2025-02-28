@@ -27,6 +27,7 @@ public class ClawBehaviour : MonoBehaviour
 
     void FixedUpdate()
     {
+        // Only move the x position within the bounds of the arena
         mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         Vector2 mousePosX = new Vector2(mousePos.x, transform.position.y);
         if (mousePosX.x < minX)
